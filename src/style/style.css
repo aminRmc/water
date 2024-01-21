@@ -41,6 +41,19 @@ div{
 
 
 
+@keyframes rotate {
+    0% {
+      -webkit-transform: rotate3d(0, 0, 1, 0deg);
+      transform: rotate3d(0, 0, 1, 0deg);
+    }
+   
+    100% {
+      -webkit-transform: rotate3d(0, 0, 1, 200deg);
+      transform: rotate3d(0, 0, 1,200deg);
+    }
+  }
+
+
 #finalGlasse{
     height: 250px;
     width: 150px;
@@ -52,6 +65,10 @@ div{
     position: relative;
     justify-content: center;
     align-items: center;
+    
+    
+   
+    
 }
 #finalGlasse h2{
     z-index: 3;
@@ -67,7 +84,14 @@ div{
     border: none;
     border-top: none; 
     bottom: 0;   
-    transition: 5s;
+    transition: 0.5s;
 }
+
+
+h4{
+    z-index: 3;
+}
+
+
 
 
